@@ -1,0 +1,20 @@
+{
+  "name": "ltn-parser",
+  "version": "0.1.0",
+  "description": "LTN 即時新聞簡單爬蟲，將爬完的資料存到Firebase。在 AWS Lambda 上面執行。",
+  "main": "index.js",
+  "keywords": [
+    "ltn",
+    "parser"
+  ],
+  "author": "Denny Tsai <denny@hpd.io>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "cheerio": "^0.20.0",
+    "dotenv": "^2.0.0",
+    "lodash": "^4.13.1",
+    "moment": "^2.14.1",
+    "request-promise": "^3.0.0"
+  }
+}
