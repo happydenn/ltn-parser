@@ -2,6 +2,11 @@
 
 LTN即時新聞簡單爬蟲
 
+## 簡介
+
+如何使用 `LTNParser` class 請參考 `example.js`。  
+另外 `lambda.js` 的 `handler` 是可以在 AWS Lambda 上面執行的 module。
+
 ## 功能
 
 1. 到 LTN 下載即時新聞 (Page 1 only)
